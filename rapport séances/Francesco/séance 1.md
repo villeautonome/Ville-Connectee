@@ -8,4 +8,4 @@ Durant ma première séance de arduino pour le projet de la ville connecté j’
 Ensuite j'ai donc modélisé sur OnShpae un "bloc" qui sera imprimé en 3D ou fabriqué à partir des matériaux à notre disposition qui sera positionné sur l'écran LCD afin de cacher les fils et le contour vert de l'écran comme on peut le voir dans l'image ci-dessus. Voici la modélisation du bloc et le résultat qu'on devrait obtenir: 
 
 ![bloc station](https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/bloc_station.png)
-![résultat bloc station](https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/résultat_bloc_station.png) 
+![résultat bloc station](https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/resultat_bloc_station.png) 
