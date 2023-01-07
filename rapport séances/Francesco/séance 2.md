@@ -8,7 +8,7 @@ Durant ma deuxième séance de arduino on est allé au Fablab pour la création 
 
 - ##### Travail sur la station météo
 
-Ensuite j'ai amélioré mon code de la station météo pour qu’elle puisse afficher la date et l’heure exacte en première ligne, et la température (en degrés) ainsi que l’humidité (en %) sur la deuxième à des intervalles de temps de 5 secondes. Le code est disponible [ici]https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/codes/meteo.ino Voici l'affichage:
+Ensuite j'ai amélioré mon code de la station météo pour qu’elle puisse afficher la date et l’heure exacte en première ligne, et la température (en degrés) ainsi que l’humidité (en %) sur la deuxième à des intervalles de temps de 5 secondes. Le code est disponible [ici](https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/codes/meteo.ino) Voici l'affichage:
 
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/meteo_temp_alt.png" alt=“lampadaire” height="300">
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/meteo_hum_alt.png" alt=“lampadaire” height="300">
