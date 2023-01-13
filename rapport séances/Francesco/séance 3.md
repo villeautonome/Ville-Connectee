@@ -20,6 +20,7 @@ J'ai réaliser la base de notre projet, en découpant une planche en bois qui fa
 - ##### Travail sur le code
 
 A la fin de notre séance, on a intégrer l’écran dans le code qui s'occupe des places de parking afin de pouvoir visualiser le nombre de places restantes. On peut voir une led rouge si la place est occuppée et une verte si elle est disponible. Voici pour l'instant la conception pour 2 places:
+
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/parking_2.jpeg" alt=“2 places 
      disponibles” height="300">
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/parking_1.jpeg" alt=“1 place 
