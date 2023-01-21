@@ -11,7 +11,7 @@ int avoid;
 // Initialisation du module RTC
 RTC_DS3231 rtc;
 
-// Initialisation de l'écran LCD
+// Initialisation de l'écran LCD sur l'adresse 0x27
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // Initialisation du capteur DHT22
@@ -44,6 +44,7 @@ void setup () {
   lcd.clear();
   lcd.createChar(1, degre);
 
+  // Initialisation du détecteur d'obstacles et de la led
   pinMode(OBS, INPUT);
   pinMode(LED, OUTPUT);
 }
@@ -52,9 +53,20 @@ void setup () {
 void loop () {
   // Récupération de l'heure courante
   DateTime now = rtc.now();
+  
   // Affichage de l'heure sur l'écran LCD
   printDateTime(now);
+  
+  //délais qui laisse le temps au capteur de récupéré la température et l'humidté
   delay(1000);
+
+  temphum();
+  capteur();
+
+}
+
+//Fonction qui affiche la tempérture et l'heure
+void temphum(){
   // Récupération de l'humidité
   byte h = dht.readHumidity();
   // Récupération de la température
@@ -90,12 +102,6 @@ void loop () {
     EC2 = !EC2;
     EC = false;
   }
-
-  //Capteur infrarouges
-  avoid = digitalRead(OBS); //lecture de l'état du capteur
-  if (avoid == HIGH) { digitalWrite(LED, LOW); } //led allumée
-  else { digitalWrite(LED, HIGH); } //led éteinte
-
 }
 
 //fonction qui affiche la date et l'heure
@@ -104,4 +110,11 @@ void printDateTime(DateTime dt) {
 
   lcd.setCursor(0,0);
   lcd.print(dt.toString(dateBuffer));
+}
+
+//Fonction qui allume une led via le capteur infrarouges
+void capteur(){
+  avoid = digitalRead(OBS); //lecture de l'état du capteur
+  if (avoid == HIGH) { digitalWrite(LED, LOW); } //led allumée
+  else { digitalWrite(LED, HIGH); } //led éteinte
 }
