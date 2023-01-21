@@ -17,6 +17,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 // Initialisation du capteur DHT22
 DHT dht(2, DHT22);
 
+// Initialisation des degrés
 byte degre[8] = {
 0b01100,0b10010,0b10010,0b01100,0b00000,0b00000,0b00000,0b00000
 };
