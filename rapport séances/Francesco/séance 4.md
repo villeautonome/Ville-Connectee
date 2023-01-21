@@ -19,11 +19,14 @@ Ensuite j’ai essayé de comprendre mieux sur internet comment pouvoir connecte
 
 - ##### Passage piéton
 
-Enfin je me suis concentré sur une partie de notre ville: le passage piéton. J’ai essayé pendant un bon moment d’utiliser le capteur à infrarouges en essayant plusieurs montages/câblages et différents codes mais rien ne fonctionnait. Du coup je me suis informé et décidé d’utiliser un autre capteur à infrarouge, le tcrt5 TCRT5000 et le KY-033:
+Enfin je me suis concentré sur une partie de notre ville: le passage piéton. J’ai essayé pendant un bon moment d’utiliser le capteur de proximité à infrarouges FC 51 en essayant plusieurs montages/câblages et différents codes mais rien ne fonctionnait. Du coup je me suis informé et décidé d’utiliser un deux autres capteurs à infrarouge, le TCRT5000 et le KY-033:
 
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/capteurTC.jpeg" alt="capteurTC" height="200">
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/capteurKY.jpeg" alt="capteurKY" height="200">
 
+J'ai donc écrit le code qui permet d'allumer une led quand le capteur détecte un objet ou du moins quelque chose devant lui, cela simule le passage piéton qui permettra d'allumer une led quand un piéton sera détecter. Voici le montage:
 
+<img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/obstacle_oui.jpeg" alt="obstacle détecté" height="300">
+<img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/obstacle_non.jpeg" alt="obstacle non détecté" height="300">
 
  
