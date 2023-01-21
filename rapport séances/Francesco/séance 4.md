@@ -18,7 +18,7 @@ On est donc allé au fablab pour découper notre boîte grâce à la découpeuse
 
 - ##### Utilisation de deux écrans sur une carte Arduino
 
-Ensuite j’ai essayé de comprendre mieux sur internet comment pouvoir connecter deux écrans sur une même carte étant donné que pour l’instant on pensait qu’on ne pouvait pas brancher deux écran sur une même carte. La solution a été de différencier les écrans par des bus différents dans notre code, il faut imposer l'adresse de chaque écrans. Dans le cas montré ci-dessous on met l'écrans 1 sur l'adresse 0x26 et le deuxième sur l'adresse 0x27. Un peu comme montré ici:
+Ensuite j’ai essayé de comprendre mieux sur internet comment pouvoir connecter deux écrans sur une même carte étant donné que pour l’instant on pensait qu’on ne pouvait pas brancher deux écran sur une même carte. La solution a été de différencier les écrans par des bus différents dans notre code, il faut imposer l'adresse de chaque écrans. Dans le cas montré ci-dessous on met l'écrans 1 sur l'adresse 0x26 et le deuxième sur l'adresse 0x27 (comme je l'avais déjà fait dans mon code pour la station météo où j'avais déclaré mon écrans sur l'adresse 0x27). Un peu comme montré ici:
 
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/2ecrans.jpeg" alt="code pour deux écrans" height="300">
 
