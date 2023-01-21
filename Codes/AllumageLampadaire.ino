@@ -1,3 +1,5 @@
+//Code écrit par Célia Roess
+
 int lampadaire = 2;
 int sensorValue;
 float sensorValue_f;
