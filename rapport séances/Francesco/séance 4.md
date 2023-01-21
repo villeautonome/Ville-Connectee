@@ -11,11 +11,11 @@ Durant ma quatrième séance j'ai commencé a découpé chaque led rgb à partir
 
 - ##### Découpage boîte finale
 
-Grâce à l’oral de présentation du projet on a pu faire le point sur l’ensemble du projet afin de mieux comprendre quel était notre état d’avancement. Les professeurs nous ont bien suggéré de changer la base en bois. Pour cela on a utiliser le site [boxes.py] https://www.festi.info/boxes.py/?language=fr pour générer les pièces de la boites à découper. Voici le fichier obtenu: on est allé au fablab pour découper notre boîte et voici le résultat final.
+Grâce à l’oral de présentation du projet on a pu faire le point sur l’ensemble du projet afin de mieux comprendre quel était notre état d’avancement. Les professeurs nous ont bien suggéré de changer la base en bois. Pour cela on a utiliser le site [boxes.py (festi.info)] (https://www.festi.info/boxes.py/?language=fr)  pour générer les pièces de la boîte fermée avec des encoches de dimension 29cm le largeur, 40cm de longueur et 10cm de hauteur à découper. On a décidé de faire une boîte car cela est plus pratique pour mettre et cacher les cables et la carte arduino dedant. Voici le fichier obtenu: <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/boite.pdf" alt="pièces de la boite" height="300">
+On est donc allé au fablab pour découper notre boîte grâce à la découpeuse laser et voici le résultat final:
 
 
-<img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/base_init.jpeg" alt="base du projet en
-     construction" height="300">
+
 
 - ##### Travail sur le code
 
