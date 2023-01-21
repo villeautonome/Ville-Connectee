@@ -60,12 +60,12 @@ void loop () {
   //délais qui laisse le temps au capteur de récupéré la température et l'humidté
   delay(1000);
 
-  temphum();
-  capteur();
+  temphum(); //appel de la fonction qui affiche température/humidité
+  capteur(); //appel de la fonction qui allume led si détectée
 
 }
 
-//Fonction qui affiche la tempérture et l'heure
+//Fonction qui affiche la température et l'heure
 void temphum(){
   // Récupération de l'humidité
   byte h = dht.readHumidity();
