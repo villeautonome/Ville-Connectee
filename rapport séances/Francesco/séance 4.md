@@ -39,4 +39,4 @@ J'ai donc écrit le code qui permet d'allumer une led quand le capteur détecte 
 
 On a alors opté d'utiliser ces capteur aussi pour le parking car ils sont moins encombrant (chose importante vu la taille de notre base qu'on a même dû réduire d'1 centimètre).
 
-J'ai alors modifié le code de la station météo en y ajoutant des commentaires et en insérant la partie qui allume la led pour le passage piéton (il est disponible dans le dossier [codes (station_meteo.ino)](https://github.com/villeautonome/Ville-Connectee/tree/main/rapport%20séances/Francesco/codes)).
+J'ai alors modifié le code de la station météo en y ajoutant des commentaires et en insérant la partie qui allume la led pour le passage piéton (il est disponible dans le dossier [codes (station_meteo.ino)](https://github.com/villeautonome/Ville-Connectee/tree/main/rapport%20séances/Francesco/codes).
