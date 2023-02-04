@@ -22,17 +22,17 @@ Le reste de la séance j’ai cherché comment pouvoir connecter deux écran lcd
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/ecrans2_A0.jpeg" alt="écrans soudé sur A0" 
 height="300">  
 
-Bien évidemment j’ai récupéré l’adresse de chaque carte grâce au scanneur i2c dont le code est [ici](https://github.com/villeautonome/Ville-Connectee/tree/main/rapport%20séances/Francesco/codes/I2C_scanner) et voici le résultat du scanner:
+Bien évidemment j’ai récupéré l’adresse de chaque carte grâce au scanneur i2c dont le code est [ici](https://github.com/villeautonome/Ville-Connectee/tree/main/rapport%20séances/Francesco/codes/I2C_scanner.ino) et voici le résultat du scanner:
 
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/I2Cscanner.png" alt="résultat scanner I2C" 
 height="150"> 
 
-Une fois l’opération terminée j’ai effectué le montage est j’ai vérifié si on avait bien deux affichages différents dans les cartes grâce à un [code test](https://github.com/villeautonome/Ville-Connectee/tree/main/rapport%20séances/Francesco/codes/test_2_ecrans). Le résulta donne ça: 
+Une fois l’opération terminée j’ai effectué le montage est j’ai vérifié si on avait bien deux affichages différents dans les cartes grâce à un [code test](https://github.com/villeautonome/Ville-Connectee/tree/main/rapport%20séances/Francesco/codes/test_2_ecrans.ino). Le résulta donne ça: 
 
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/test_2ecrans.png" alt="test 2 écrans soudé" 
 height="300">  
 
-J’ai donc unifié le code que j’avais écrit avec celui de mon binôme puisque maintenant on peut utilisé une seule carte arduino uno étant donné que notre problème principal était le fait qu’on n’arrivait pas à utiliser deux écrans relié à une même carte arduino. Il y a le code [ici]() et les deux écrans avec ce code ici: 
+J’ai donc unifié le code que j’avais écrit avec celui de mon binôme puisque maintenant on peut utilisé une seule carte arduino uno étant donné que notre problème principal était le fait qu’on n’arrivait pas à utiliser deux écrans relié à une même carte arduino. Il y a le code [ici](https://github.com/villeautonome/Ville-Connectee/tree/main/rapport%20séances/Francesco/codes/version_unie.ino) et les deux écrans avec ce code ici: 
 
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/resultat_2ecrans.jpeg" alt="vérification 2 écrans" 
 height="300">  
