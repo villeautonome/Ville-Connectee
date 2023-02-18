@@ -18,8 +18,7 @@ height="300">
 
 Après tout ce travail j'ai alors collé sur la planche en bois ce bout d'herbe avec de la colle super forte et relié tous les fils afin de tester le tout. On peut voir le résultat final :
 
-<img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/station_meteo_fin.jpeg" alt="station météo final" 
-height="300">
+<img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/station_meteo_fin.jpeg" alt="station météo final" height="300">
 
 - #### Finalisation des lampadaires et montage final
 
