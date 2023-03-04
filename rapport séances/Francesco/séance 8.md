@@ -31,7 +31,7 @@ De plus j’ai réaliser un fichier svg pour réaliser une petite boîte qui va 
 
 - #### Travail sur détecteur de poussière
 
-Grâce à mon professeur j’ai compris un peu mieux comment utiliser le module de capteur de poussière DSM501A pm2,5. On a pu faire ensemble le montage et tester ce capteur grâce à un code trouvé en ligne et qui est disponible [ici](https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/codes/dust_led_try.ino). Le détecteur renvoie le nombre de particules pour 1/100 de pied cube (environ 0,03 mètres cubes). Voici la photo du montage:
+Grâce à mon professeur j’ai compris un peu mieux comment utiliser le module de capteur de poussière DSM501A pm2,5. On a pu faire ensemble le montage et tester ce capteur grâce à un code trouvé en ligne et qui est disponible [ici](https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/codes/dust_led_try.ino). Le détecteur renvoie le nombre de particules pour 1/100 de pied cube (environ 1/100 tous les 0,03 mètres cubes). Voici la photo du montage:
 
 <img src="https://github.com/villeautonome/Ville-Connectee/blob/main/rapport%20séances/Francesco/images/detecteur_particules.png" alt="détecteur particules" height="300">
      
